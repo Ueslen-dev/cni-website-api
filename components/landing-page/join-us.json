@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_landing_page_joinuses",
+  "info": {
+    "name": "JoinUs",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 150
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.button",
+      "required": true
+    }
+  }
+}

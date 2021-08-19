@@ -11,28 +11,25 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "strapi": "3.6.6",
-    "strapi-admin": "3.6.6",
-    "strapi-utils": "3.6.6",
-    "strapi-plugin-content-type-builder": "3.6.6",
-    "strapi-plugin-content-manager": "3.6.6",
-    "strapi-plugin-users-permissions": "3.6.6",
-    "strapi-plugin-email": "3.6.6",
-    "strapi-plugin-upload": "3.6.6",
-    "strapi-plugin-i18n": "3.6.6",
-    "strapi-connector-bookshelf": "3.6.6",
     "knex": "0.21.18",
     "pg": "8.5.1",
-    "mime-types": "^2.1.27",
-    "strapi-plugin-graphql": "3.6.6"
+    "strapi": "3.6.6",
+    "strapi-admin": "3.6.6",
+    "strapi-connector-bookshelf": "3.6.6",
+    "strapi-plugin-content-manager": "3.6.6",
+    "strapi-plugin-content-type-builder": "3.6.6",
+    "strapi-plugin-email": "3.6.6",
+    "strapi-plugin-graphql": "3.6.6",
+    "strapi-plugin-i18n": "3.6.6",
+    "strapi-plugin-upload": "3.6.6",
+    "strapi-plugin-users-permissions": "3.6.6",
+    "strapi-utils": "3.6.6"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "335d956a-54ad-40c3-9350-f4455ad4e3fd",
-    "template": "https://github.com/strapi/strapi-template-blog",
-    "starter": "https://github.com/strapi/strapi-starter-next-blog"
+    "uuid": "3b704b12-5f63-45ea-b378-b1c80fd292f9"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",

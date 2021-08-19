@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_landing_page_more_abouts",
+  "info": {
+    "name": "MoreAbout",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Muito mais formação para você!",
+      "required": true,
+      "maxLength": 40
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "Estamos sempre preocupados com o sucesso de nossos alunos",
+      "required": true,
+      "maxLength": 80
+    },
+    "buttonLabel": {
+      "type": "string",
+      "required": true,
+      "default": "Saiba mais",
+      "maxLength": 20
+    }
+  }
+}

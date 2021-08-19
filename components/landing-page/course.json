@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_landing_page_courses",
+  "info": {
+    "name": "Course",
+    "icon": "bookmark",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 40,
+      "unique": true
+    },
+    "teacher": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50
+    },
+    "price": {
+      "type": "string",
+      "default": "00,00",
+      "required": true
+    },
+    "offer": {
+      "type": "string",
+      "default": "00,00"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "welcomes",
+  "info": {
+    "name": "Welcome",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Main": {
+      "type": "component",
+      "repeatable": false,
+      "component": "welcome.main",
+      "required": true
+    }
+  }
+}

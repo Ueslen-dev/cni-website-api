@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_landing_page_headers",
+  "info": {
+    "name": "Header",
+    "icon": "list-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

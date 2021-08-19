@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_landing_page_banner_heroes",
+  "info": {
+    "name": "Banner Hero",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "moreAbout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.more-about",
+      "required": true
+    }
+  }
+}
