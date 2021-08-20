@@ -30,7 +30,7 @@ Tecnologias que foram utilizadas no projeto:
 
 ## 👀 Observação
 
-O projeto foi desenvolvido para gerenciar o conteúdo do CNI Website, para testar 100% o projeto será necessário clonar o repositório do website.  [Repositório CNI Website](https://github.com/Ueslen-dev/cni-website-api)
+O projeto foi desenvolvido para gerenciar o conteúdo do CNI Website, para testar 100% o projeto será necessário clonar o repositório do website.  [Repositório CNI Website](https://github.com/Ueslen-dev/cni-website)
 
 
 ## 💻 Começando
